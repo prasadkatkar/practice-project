@@ -78,10 +78,14 @@ export default function Factory() {
             </div>
           ))}
         </div>
-        <div className="">
-          {factoryItems.map((item) => (
-            <div key={item.description}>
-              <div className="flex gap-3 items-center mb-2">
+        <div className="pt-5 shrink-0">
+          {factoryItems.map((item, index) => (
+            <div key={item.description} className="pt-4">
+              <div
+                className={`flex gap-3 items-center mb-2 grow-0 ${
+                  index % 2 !== 0 ? "flex-row-reverse" : ""
+                }`}
+              >
                 <img src={item.image1} alt="" />
                 <img src={item.image2} alt="" />
                 <p>{item.description}</p>
