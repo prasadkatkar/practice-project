@@ -13,7 +13,7 @@ export default function Navbar() {
                 Home
               </Link>
               <Link
-                href="/products"
+                href="/product"
                 className="text-[#80776A] hover:text-gray-300"
               >
                 Products

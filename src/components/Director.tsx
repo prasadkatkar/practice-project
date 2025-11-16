@@ -3,6 +3,7 @@ interface ownerCard {
   name: string;
   comment: string;
 }
+
 export default function Director() {
   const data: Array<ownerCard> = [
     {

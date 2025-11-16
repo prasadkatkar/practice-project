@@ -69,3 +69,43 @@ export const factoryItems=[
     },
 
 ]
+
+export const products=[
+    {
+        image1:"/bed.png",
+        heading:"BEDS & BEDSIDES",
+        image2:"/endLine.png"
+
+    },
+    {
+        image1:"/table.png",
+        heading:"DINING TABLES & CHAIRS",
+        image2:"/endLine.png"
+
+    },
+    {
+        image1:"/sofas.png",
+        heading:"SOFAS",
+        image2:"/endLine.png"
+
+    },
+    {
+        image1:"/chair.png",
+        heading:"CHAIRS",
+        image2:"/endLine.png"
+
+    },
+     {
+        image1:"/cbinet.png",
+        heading:"CABINATES",
+        image2:"/endLine.png"
+
+    },
+     {
+        image1:"/sidebord.png",
+        heading:"SIDEBOARDS",
+        image2:"/endLine.png"
+
+    }
+     
+]
