@@ -1,9 +1,11 @@
+import HomeScrollBar from "@/components/HomeScrollBar";
+
 export default function Home() {
   return (
-    <header>
+    <div>
       <div>
-        <img src="./sofa.png" alt="Hero" />
+        <HomeScrollBar />
       </div>
-    </header>
+    </div>
   );
 }

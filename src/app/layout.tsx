@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
 import HideableSidebar from "@/components/HideSideBar";
+import ShowCase from "@/components/ShowCase";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,11 +32,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="sticky top-0 z-50">
-          {" "}
-          {/* makes Navbar stick to top */}
           <Navbar />
         </div>
-        <div className="flex">
+        <ShowCase />
+        <div className={`flex`}>
           <HideableSidebar />
           <main className="grow w-full">{children}</main>
         </div>

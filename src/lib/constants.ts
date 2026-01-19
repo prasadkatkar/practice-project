@@ -79,7 +79,7 @@ export const products=[
     },
     {
         image1:"/table.png",
-        heading:"DINING TABLES & CHAIRS",
+        heading:"DINING TABLES",
         image2:"/endLine.png"
 
     },
@@ -108,4 +108,62 @@ export const products=[
 
     }
      
+]
+
+export interface HomePage{
+    image:string
+}
+
+export const HomeHeader:Array<HomePage>=[
+    {
+        image:"/home-sofa.jpg",
+    },
+    {
+        image:"/home-chair.jpg",
+    },
+    {
+        image:"/home-chair2.jpg",
+    },
+    {
+        image:"/home-bed.jpg"
+    }
+]
+
+export const ScrollBar=[
+    {
+        image:"/homescroll1.jpg",
+        heading:"Wiru Sidetable 1D",
+        name:"Bed & Bedsides",
+        description:"Oak veneered cabinet. Solid oak legs. One oak or white drawer. HProduct must be attached to the wall, the product have a readyness but not special fixing scrwes or dowels.",
+
+    },
+     {
+        image:"/homescroll2.jpg",
+        heading:"KDC 02",
+        name:"Chair",
+        description:"This piece is well crafted in tenon and mortise joints made in seasoned white beech wood. Its twisted legs and short handle depicts minimalistic design which makes you feel comfortable. It is in natural finish.",
+
+    },
+    {
+        image:"/homescroll3.jpg",
+        heading:"KSO 19",
+        name:"Sofa",
+        description:"Sumptuous and comfortable, this sofa comes with a designer lumber support back. This royal piece makes you feel more relax. It’s a clean comfortable look that you will always love coming home. It is in walnut finish. We can customise according to size, finish and upholstery available in single-seater, double-seater, and three-seater.",
+
+    },
+    {
+        image:"/homescroll4.jpg",
+        heading:"KISO 02",
+        name:"Indian Sitting",
+        description:"This piece is well crafted in tenon and mortise joints made in seasoned white beech wood. This traditional piece of furniture is decorated with turned wooden members, this principle of design makes aesthetically it more beautiful and comfortable. It is in rose wood finish.",
+
+    },
+    {
+        image:"/homescroll5.jpg",
+        heading:"KDC 07",
+        name:"Chair",
+        description:"This piece is well crafted in tenon and mortise joints made in seasoned white beech wood. The semicircular back gives you a perfect comfort and bending legs gives a perfect grace. The unexceptional aesthetic makes everyone to love it. It is in walnut finish.",
+
+    }
+
 ]
